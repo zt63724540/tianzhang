@@ -1,5 +1,23 @@
----
-title: "About Me"
----
 
-Why I am awesome. 
+### Tian Zhang
+ ![](me.jpg){width=200px}
+
+<br><br>
+
+
+##### Working Experience
+  + UBS, Quantitative Credit Risk Specialist
+  + Pythgoras Investment Management, Quantitative Trader Intern
+
+##### Education Experience
+  + Columbia University, Master's degree in Statistics
+  + University of Birmingham, Bachelor's degree in Mathematics
+  + Harbin Institute of Technology, Bachelor's degree in Engineering Management
+
+##### Contact Information
+  + Email: zhangtz530@gmail.com
+  + Phone: (1)917-207-8908
+  + Linkedin: https://www.linkedin.com/in/zhangtz530/
+  
+  
+  

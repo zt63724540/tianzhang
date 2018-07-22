@@ -1,9 +1,18 @@
 name: "Tian Zhang"
 output_dir: "."
 navbar:
-  title: "Tian's Website"
+  title: "Tian Zhang"
   left:
     - text: "Home"
       href: index.html
     - text: "About Me"
       href: about.html
+    - text: "Quantitative Trading"
+      href: qt.html
+    - text: "Mathematical Finance"
+      href: mf.html
+    - text: "Programming and software development"
+      href: psd.html
+output:
+  html_document:
+    theme: simplex
