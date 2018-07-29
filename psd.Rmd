@@ -1,0 +1,5 @@
+---
+title: "Programming and Software Development"
+---
+  
+[Some useful knowledge for Python](https://github.com/zt63724540/Programming-and-software-development/blob/master/py_tricks.html)   
