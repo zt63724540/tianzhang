@@ -3,3 +3,19 @@ title: "Programming and Software Development"
 ---
   
 [Some useful knowledge for Python](https://github.com/zt63724540/Programming-and-software-development/blob/master/py_tricks.html)   
+
+
+### Crack Leetcode 
+
+#### 1. Array
+
+##### 1. Two Sum: https://leetcode.com/problems/two-sum/description/
+hint: use dictionary
+
+##### 26. Remove Duplicates from Sorted Array: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+hint: use one pointer to indicate the index of unique elements
+
+##### 27. Remove Element: https://leetcode.com/problems/remove-element/description/
+hint: the key is the order of elements can be changed, so we can use two pointers which points to first and last respectively and do swap if find that value
+
+##### 35. Search Insert Position: https://leetcode.com/problems/search-insert-position/description/
