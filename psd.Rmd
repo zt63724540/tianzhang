@@ -9,13 +9,37 @@ title: "Programming and Software Development"
 
 #### 1. Array
 
-##### 1. Two Sum: https://leetcode.com/problems/two-sum/description/
-hint: use dictionary
+##### 1. Two Sum: hint: use dictionary
+https://leetcode.com/problems/two-sum/description/
 
-##### 26. Remove Duplicates from Sorted Array: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
-hint: use one pointer to indicate the index of unique elements
+##### 26. Remove Duplicates from Sorted Array: use one pointer to indicate the index of unique elements
+https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 
-##### 27. Remove Element: https://leetcode.com/problems/remove-element/description/
-hint: the key is the order of elements can be changed, so we can use two pointers which points to first and last respectively and do swap if find that value
 
-##### 35. Search Insert Position: https://leetcode.com/problems/search-insert-position/description/
+##### 27. Remove Element: the key is the order of elements can be changed, so we can use two pointers which points to first and last respectively and do swap if find that value
+https://leetcode.com/problems/remove-element/description/
+
+
+##### 35. Search Insert Position: binary search
+https://leetcode.com/problems/search-insert-position/description/
+
+
+##### 53. Maximum Subarray: https://leetcode.com/problems/maximum-subarray/description/
+
+##### 66. Plus One: https://leetcode.com/problems/plus-one/description/
+
+##### 88. Merge Sorted Array: https://leetcode.com/problems/merge-sorted-array/description/
+
+##### 118. Pascal's Triangle: https://leetcode.com/problems/pascals-triangle/description/
+
+##### 119. Pascal's Triangle II: https://leetcode.com/problems/pascals-triangle-ii/description/
+
+##### 121. Best Time to Buy and Sell Stock: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+
+##### 122. Best Time to Buy and Sell Stock II: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
+
+##### 167. Two Sum II - Input array is sorted: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+
+##### 169. Majority Element: https://leetcode.com/problems/majority-element/description/
+
+##### 189. Rotate Array: https://leetcode.com/problems/rotate-array/description/
