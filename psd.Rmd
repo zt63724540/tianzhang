@@ -11,6 +11,9 @@ title: "Programming and Software Development"
 Here are my summary of the high frequent leetcode questions and the hints can help me recall these questions and might be useful for the quant interviews
 
 
+
+
+
 #### *PHASE 1: Three big topics*
 
 ***
@@ -64,7 +67,7 @@ Here are my summary of the high frequent leetcode questions and the hints can he
 7.Reverse Integer: use [::-1] and be careful about the negative sign
 [link](https://leetcode.com/problems/reverse-integer/description/)
 
-9.Palindrome Number: use [::-1]
+9.Palindrome Number: use [::-1] to detect
 [link](https://leetcode.com/problems/palindrome-number/description/)
 
 13.Roman to Integer：read the char from right to left and add it to the returned value but if char equal to I,X,C,M and returned value less than 5, 50, 500, 5000 respectively, then subtract it
