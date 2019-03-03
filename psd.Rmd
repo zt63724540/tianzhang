@@ -7,9 +7,8 @@ title: "Programming and Software Development"
 
 ## Crack Leetcode 
 ### PHASE 1: Three big topics
-#### Array
-#### String
-#### Math
+Array, String, Math
+
 
 
 
