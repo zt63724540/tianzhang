@@ -216,7 +216,13 @@ $(document).ready(function () {
 <hr />
 <div id="crack-leetcode" class="section level3">
 <h3>Crack Leetcode</h3>
-<p>Here are my summary of the high frequent leetcode questions and the hints can help me recall these questions and might be useful for the quant interviews #### <em>PHASE 1: Three big topics</em> * Array</p>
+<p>Here are my summary of the high frequent leetcode questions and the hints can help me recall these questions and might be useful for the quant interviews</p>
+<div id="phase-1-three-big-topics" class="section level4">
+<h4><em>PHASE 1: Three big topics</em></h4>
+<hr />
+<ul>
+<li>Array</li>
+</ul>
 <p>1.Two Sum: hint: use dictionary <a href="https://leetcode.com/problems/two-sum/description/">link</a></p>
 <p>26.Remove Duplicates from Sorted Array: use one pointer to indicate the index of unique elements <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/">link</a></p>
 <p>27.Remove Element: the key is the order of elements can be changed, so we can use two pointers which points to first and last respectively and do swap if find that value <a href="https://leetcode.com/problems/remove-element/description/">link</a></p>
@@ -229,19 +235,53 @@ $(document).ready(function () {
 <p>121.Best Time to Buy and Sell Stock: find the largest increment change <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/">link</a></p>
 <p>122.Best Time to Buy and Sell Stock II: cumulative all the increment change <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/">link</a></p>
 <p>167.Two Sum II - Input array is sorted: use two pointers, left and right <a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/">link</a></p>
+<hr />
 <ul>
-<li><p>String</p></li>
-<li><p>Math</p></li>
+<li>String</li>
 </ul>
+<hr />
+<ul>
+<li>Math</li>
+</ul>
+<p>7.Reverse Integer: use [::-1] and be careful about the negative sign <a href="https://leetcode.com/problems/reverse-integer/description/">link</a></p>
+<p>9.Palindrome Number: use [::-1][link](<a href="https://leetcode.com/problems/palindrome-number/description/" class="uri">https://leetcode.com/problems/palindrome-number/description/</a>)</p>
+<p>13.Roman to Integer：read the char from right to left and add it to the returned value but if char equal to I,X,C,M and returned value less than 5, 50, 500, 5000 respectively, then subtract it <a href="https://leetcode.com/problems/roman-to-integer/description/">link</a></p>
+<p>66.Plus One：One: convert array of digits to a number and add one, then convert back <a href="https://leetcode.com/problems/plus-one/description/">link</a></p>
+<p>67.Add Binary： bin can convert decimal to binary, eval(“0b”+x) can convert binary to decimal,another built-in function is int(x,2) where x is the binary number with string type <a href="https://leetcode.com/problems/add-binary/description/">link</a></p>
+<p>69.Sqrt(x)： binary search or newton method <a href="https://leetcode.com/problems/sqrtx/description/">link</a></p>
+<p>168.Excel Sheet Column Title： make use of ord and dividend is 26 <a href="https://leetcode.com/problems/excel-sheet-column-title/description/">link</a></p>
+<p>171.Excel Sheet Column Number: make use of ord <a href="https://leetcode.com/problems/excel-sheet-column-number/description/">link</a></p>
+<p>202.Happy Number: write a while function, either n occured twice and return false or the n equal to 1 and return true <a href="https://leetcode.com/problems/happy-number/description/">link</a></p>
+<p>204.Count Primes：created a list with all true with length n, use 2 loops and start from begining, e.g. i = 2, j = 2,3,4,…,(n-1)//i, set res[i*j] = False, finally return sum(res) <a href="https://leetcode.com/problems/count-primes/description/">link</a></p>
+</div>
 <div id="phase-2-10-topics-with-100-highest-frequent-questions" class="section level4">
 <h4><em>PHASE 2: 10 topics with 100 highest frequent questions</em></h4>
+<hr />
 <ul>
 <li>Bit Manipulation: 136, 461, 371, 191, 476, 231, 190, 389, 401, 342</li>
+</ul>
+<hr />
+<ul>
 <li>Binary Search: 167, 35, 374, 278, 50, 153, 33, 29, 287, 240, 4</li>
+</ul>
+<hr />
+<ul>
 <li>Sort: 242, 349,350, 148, 56, 147, 179, 280, 164, 296</li>
+</ul>
+<hr />
+<ul>
 <li>Two pointers: 141, 26, 27, 234, 28, 167, 349, 345, 125, 350</li>
+</ul>
+<hr />
+<ul>
 <li>Dynamic Programming: 53, 121, 70,198, 303, 746, 5, 338, 152, 139, 10</li>
+</ul>
+<hr />
+<ul>
 <li>Tree: 104, 226, 617, 100, 110, 235, 108, 669, 101, 257</li>
+</ul>
+<hr />
+<ul>
 <li>Hash table: 771, 463, 219, 242, 760, 500, 387, 204, 205, 290</li>
 </ul>
 </div>

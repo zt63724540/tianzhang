@@ -9,7 +9,11 @@ title: "Programming and Software Development"
 
 ### Crack Leetcode 
 Here are my summary of the high frequent leetcode questions and the hints can help me recall these questions and might be useful for the quant interviews
+
+
 #### *PHASE 1: Three big topics*
+
+***
 * Array
 
 1.Two Sum: hint: use dictionary
@@ -51,18 +55,63 @@ Here are my summary of the high frequent leetcode questions and the hints can he
 167.Two Sum II - Input array is sorted: use two pointers, left and right
 [link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 
+***
 * String
 
+***
 * Math
 
+7.Reverse Integer: use [::-1] and be careful about the negative sign
+[link](https://leetcode.com/problems/reverse-integer/description/)
+
+9.Palindrome Number: use [::-1]
+[link](https://leetcode.com/problems/palindrome-number/description/)
+
+13.Roman to Integer：read the char from right to left and add it to the returned value but if char equal to I,X,C,M and returned value less than 5, 50, 500, 5000 respectively, then subtract it
+[link](https://leetcode.com/problems/roman-to-integer/description/)
+
+66.Plus One：One: convert array of digits to a number and add one, then convert back
+[link](https://leetcode.com/problems/plus-one/description/)
+
+67.Add Binary： bin can convert decimal to binary, eval("0b"+x) can convert binary to decimal,another built-in function is int(x,2) where x is the binary number with string type
+[link](https://leetcode.com/problems/add-binary/description/)
+
+69.Sqrt(x)： binary search or newton method
+[link](https://leetcode.com/problems/sqrtx/description/)
+
+168.Excel Sheet Column Title： make use of ord and dividend is 26
+[link](https://leetcode.com/problems/excel-sheet-column-title/description/)
+
+171.Excel Sheet Column Number: make use of ord
+[link](https://leetcode.com/problems/excel-sheet-column-number/description/)
+
+202.Happy Number: write a while function, either n occured twice and return false or the n equal to 1 and return true
+[link](https://leetcode.com/problems/happy-number/description/)
+
+204.Count Primes：created a list with all true with length n, use 2 loops and start from begining, e.g. i = 2, j = 2,3,4,...,(n-1)//i, set res[i*j] = False, finally return sum(res)
+[link](https://leetcode.com/problems/count-primes/description/)
 
 #### *PHASE 2: 10 topics with 100 highest frequent questions*
+
+***
 * Bit Manipulation: 136, 461, 371, 191, 476, 231, 190, 389, 401, 342
+
+***
 * Binary Search: 167, 35, 374, 278, 50, 153, 33, 29, 287, 240, 4 
+
+***
 * Sort: 242, 349,350, 148, 56, 147, 179, 280, 164, 296
+
+***
 * Two pointers: 141, 26, 27, 234, 28, 167, 349, 345, 125, 350
+
+***
 * Dynamic Programming: 53, 121, 70,198, 303, 746, 5, 338, 152, 139, 10
+
+***
 * Tree: 104, 226, 617, 100, 110, 235, 108, 669, 101, 257
+
+***
 * Hash table: 771, 463, 219, 242, 760, 500, 387, 204, 205, 290
 
 
