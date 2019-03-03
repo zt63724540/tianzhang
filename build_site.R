@@ -7,3 +7,4 @@ setwd("/Users/tianzhang/Documents/github/tianzhang")
 #render your sweet site. 
 rmarkdown::render_site()
 
+

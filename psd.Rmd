@@ -4,59 +4,65 @@ title: "Programming and Software Development"
   
 [Some useful knowledge for Python](https://github.com/zt63724540/Programming-and-software-development/blob/master/py_tricks.html)   
 
-
-## Crack Leetcode 
-### PHASE 1: Three big topics
-Array, String, Math
+***
 
 
+### Crack Leetcode 
+Here are my summary of the high frequent leetcode questions and the hints can help me recall these questions and might be useful for the quant interviews
+#### *PHASE 1: Three big topics*
+* Array
+
+1.Two Sum: hint: use dictionary
+[link](https://leetcode.com/problems/two-sum/description/)
+
+26.Remove Duplicates from Sorted Array: use one pointer to indicate the index of unique elements
+[link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 
 
-##### 1. Two Sum: hint: use dictionary
-https://leetcode.com/problems/two-sum/description/
-
-##### 26. Remove Duplicates from Sorted Array: use one pointer to indicate the index of unique elements
-https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+27.Remove Element: the key is the order of elements can be changed, so we can use two pointers which points to first and last respectively and do swap if find that value
+[link](https://leetcode.com/problems/remove-element/description/)
 
 
-##### 27. Remove Element: the key is the order of elements can be changed, so we can use two pointers which points to first and last respectively and do swap if find that value
-https://leetcode.com/problems/remove-element/description/
+35.Search Insert Position: binary search
+[link](https://leetcode.com/problems/search-insert-position/description/)
 
 
-##### 35. Search Insert Position: binary search
-https://leetcode.com/problems/search-insert-position/description/
+53.Maximum Subarray: if the cum sum below zero, then re-start the cum sum
+[link](https://leetcode.com/problems/maximum-subarray/description/)
+
+66.Plus One: convert array of digits to a number and add one, then convert back
+[link](https://leetcode.com/problems/plus-one/description/)
+
+88.Merge Sorted Array: the key of this question is the last of array 1 has available room to make use of, so start to fill in the end of array 1 by comparing the end of array 1 and array 2
+[link](https://leetcode.com/problems/merge-sorted-array/description/)
+
+118.Pascal's Triangle: first create a list of list with value 1 and then every element equals to two elements of the previous level
+[link](https://leetcode.com/problems/pascals-triangle/description/)
+
+119.Pascal's Triangle II: created a returned list with value 100.., use two loops to find the final solution. E.g. rowIndex = 5, then 10000->11000->12100->13310->14641
+[link](https://leetcode.com/problems/pascals-triangle-ii/description/)
+
+121.Best Time to Buy and Sell Stock: find the largest increment change
+[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
+
+122.Best Time to Buy and Sell Stock II: cumulative all the increment change
+[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
+
+167.Two Sum II - Input array is sorted: use two pointers, left and right
+[link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
+
+* String
+
+* Math
 
 
-##### 53. Maximum Subarray: if the cum sum below zero, then re-start the cum sum
-https://leetcode.com/problems/maximum-subarray/description/
-
-##### 66. Plus One: convert array of digits to a number and add one, then convert back
-https://leetcode.com/problems/plus-one/description/
-
-##### 88. Merge Sorted Array: the key of this question is the last of array 1 has available room to make use of, so start to fill in the end of array 1 by comparing the end of array 1 and array 2
-https://leetcode.com/problems/merge-sorted-array/description/
-
-##### 118. Pascal's Triangle: first create a list of list with value 1 and then every element equals to two elements of the previous level
-https://leetcode.com/problems/pascals-triangle/description/
-
-##### 119. Pascal's Triangle II: created a returned list with value 100.., use two loops to find the final solution. E.g. rowIndex = 5, then 10000->11000->12100->13310->14641
-https://leetcode.com/problems/pascals-triangle-ii/description/
-
-##### 121. Best Time to Buy and Sell Stock: find the largest increment change
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
-
-##### 122. Best Time to Buy and Sell Stock II: cumulative all the increment change
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
-
-##### 167. Two Sum II - Input array is sorted: use two pointers, left and right
-https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+#### *PHASE 2: 10 topics with 100 highest frequent questions*
+* Bit Manipulation: 136, 461, 371, 191, 476, 231, 190, 389, 401, 342
+* Binary Search: 167, 35, 374, 278, 50, 153, 33, 29, 287, 240, 4 
+* Sort: 242, 349,350, 148, 56, 147, 179, 280, 164, 296
+* Two pointers: 141, 26, 27, 234, 28, 167, 349, 345, 125, 350
+* Dynamic Programming: 53, 121, 70,198, 303, 746, 5, 338, 152, 139, 10
+* Tree: 104, 226, 617, 100, 110, 235, 108, 669, 101, 257
+* Hash table: 771, 463, 219, 242, 760, 500, 387, 204, 205, 290
 
 
-### PHASE 2: 10 topics with 100 highest frequent questions
-#### Bit Manipulation: 136, 461, 371, 191, 476, 231, 190, 389, 401, 342
-#### Binary Search: 167, 35, 374, 278, 50, 153, 33, 29, 287, 240, 4 
-#### Sort: 242, 349,350, 148, 56, 147, 179, 280, 164, 296
-#### Two pointers: 141, 26, 27, 234, 28, 167, 349, 345, 125, 350
-#### Dynamic Programming: 53, 121, 70,198, 303, 746, 5, 338, 152, 139, 10
-#### Tree: 104, 226, 617, 100, 110, 235, 108, 669, 101, 257
-#### Hash table: 771, 463, 219, 242, 760, 500, 387, 204, 205, 290
